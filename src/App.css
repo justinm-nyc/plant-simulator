@@ -10,3 +10,17 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.water-card {
+  background-color: dodgerblue;
+  margin: 5px;
+}
+
+.sun-card {
+  background-color: orange;
+  margin: 5px;
+}
+
+.progress-bar-div {
+  margin-top: 50px;
+}
