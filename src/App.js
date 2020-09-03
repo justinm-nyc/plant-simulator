@@ -11,7 +11,7 @@ import {
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
        <Switch>
           <Route path="/start-game">
             <PlantGame />

@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
+import { Link } from "react-router-dom";
+
 import '../App.css';
 
 class StartPage extends Component {
@@ -28,7 +30,9 @@ class StartPage extends Component {
         </Row>
         <Row>
             <Col>  
-                <Button variant="success">Success</Button>{' '}
+              <Link to="/start-game">
+                <Button  variant="success">Start</Button>{' '}
+              </Link>
             </Col>
 
         </Row>
